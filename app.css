@@ -62,10 +62,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 100px; */
-    /* position: absolute;
-    top: 0;
-    left: 0; */
 }
 #searchCity h1{
     color:white;
@@ -109,11 +105,6 @@ body{
 #searchLogo{
     height:22px;
     width:22px;
-}
-#searchCity div{
-    position: sticky;
-    top: 0;
-    left: 0;
 }
 
 
@@ -266,6 +257,10 @@ body{
     font: 16px;
     font-weight: bold;
 }
+#bottomNav a:hover{
+    color: rgb(0, 106, 255);
+    text-decoration: none;
+}
 
 
 footer{
@@ -388,8 +383,3 @@ footer nav{
     height: 30px;
     width: 30px;
 }
-
-/* to change the highlight color
-::selection{
-    color:purple;
-} */
